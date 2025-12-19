@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.swp
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Virtualenv
+venv/
+env/
+ENV/
+.venv/
+
+# IDE / Editor
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Celery / task queue
+celerybeat-schedule
+celerybeat.pid
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test / coverage
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
